@@ -4,7 +4,7 @@
 
 
 
-  
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <style>
@@ -19,13 +19,11 @@
 <body>
 
 
-
-
-
  <?php
 
  	$folder = $_POST["folder"];
 	$alias = $_POST["alias"];
+  $alias5 = $_POST["alias5"];
 	$number = $_POST["number"];
 	$slug = $_POST["slug"];
   	$url = $_POST["url"];
